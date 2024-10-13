@@ -15,7 +15,7 @@ const showMenu = ref(false)
         <div class="flex items-center justify-start w-1/4 h-full pr-4">
           <a
             href="/"
-            title="Sink"
+            title="Shink"
             class="flex items-center py-4 space-x-2 text-xl font-black text-gray-900 dark:text-gray-100 md:py-0"
           >
             <span
@@ -23,11 +23,11 @@ const showMenu = ref(false)
             >
               <img
                 src="/sink.png"
-                alt="Sink"
+                alt="Shink"
                 class="w-full h-full rounded-full"
               >
             </span>
-            <span class="mx-2">Sink</span>
+            <span class="mx-2">Shink</span>
           </a>
         </div>
 
@@ -53,7 +53,7 @@ const showMenu = ref(false)
                   class="w-full h-full rounded-full"
                 >
               </span>
-              <span class="mx-2">Sink</span>
+              <span class="mx-2">Shink</span>
             </a>
             <div class="w-full mx-4" />
             <div
@@ -64,16 +64,6 @@ const showMenu = ref(false)
                 href="/dashboard"
                 title="Sink Dashboard"
               >Dashboard</a>
-              <a
-                href="https://github.com/ccbikai/sink"
-                target="_blank"
-                title="Github"
-                class="inline-flex items-center w-full px-6 py-3 text-sm font-medium leading-4 text-white bg-gray-900 md:px-3 md:w-auto md:rounded-full hover:bg-gray-800 focus:outline-none md:focus:ring-2 focus:ring-0 focus:ring-offset-2 focus:ring-gray-800"
-              >
-                <GitHubIcon
-                  class="w-5 h-5 mr-1"
-                />
-                GitHub</a>
               <span class="ml-1">
                 <SwitchTheme />
               </span>
